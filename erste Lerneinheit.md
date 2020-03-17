@@ -55,7 +55,7 @@ Git ist eine Software, die das Bearbeiten von Dateien von einer oder mehreren Pe
 
 <b>Github auf die Shell bringen</b><br>
 1.	cd (um ins Heimverzeichnis zu kommen)
-2.	git pull + URL (https://github.com/felixlohmeier/bibliotheks-und-archivinformatik)
+2.	git pull + URL ([Beispiel](https://github.com/felixlohmeier/bibliotheks-und-archivinformatik))
 3.	cd bibliotheks- und archivinformatik
 4.	nano 01_technische-grundlagen.md (Um Änderungen in der Datei vorzunehmen)
 5.	STRG+X
