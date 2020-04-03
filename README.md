@@ -7,7 +7,7 @@
 	<meta name ="keywords" content="Homepage, HTML, Lerntagebuch, BAIN, GitHub, IW">
 	<meta name ="date" content="03.04.2020">
 	<meta name ="viewport" content="device-width, initial-scale=1.0">
-	<link rel ="stylesheet" href="css.css" type ="text/css">
+	<link rel ="stylesheet" href="css" type ="text/css">
 </head>
 <body>
 	<div id="c1">
