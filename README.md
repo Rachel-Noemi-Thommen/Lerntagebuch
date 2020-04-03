@@ -26,7 +26,7 @@
 			<div id="c3">
 			<ul>
 				<li><a href="index.html">Home</a></li>
-				<li><a href="lerntagebuch/beitrag_1.html">Lerneinheit 1</a></li>
+				<li><a href="Lerntagebuch/eintrag_1.html">Lerneinheit 1</a></li>
 				<li><a href="unterseiten/studium.html">Lerneinheit 2</a></li>
 				<li><a href="unterseiten/nebenjob.html">Lerneinheit 3</a></li>
 			</ul>
