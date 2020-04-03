@@ -1,6 +1,5 @@
 <html>
 <head>
-	<title>Lerntagebuch BAIN</title>
 	<meta charset ="utf-8"/>
 	<meta name ="author" content="Rachel Noëmi Thommen">
 	<meta name ="description" content="Lerntagebuch, Startseite">
@@ -11,10 +10,6 @@
 </head>
 <body>
 	<div id="c1">
-<!--		<header>
-		<a href="index.html">Lerntagebuch BAIN</a>
-		</header> 
-	</div> -->
 	<div id="c2">
 		<h1>Lerntagebuch Bibliotheks- und Archivinformatik</h1>
 	</div>
