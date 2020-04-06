@@ -22,19 +22,6 @@ h2 {
 	text-align: left;
 	text-transform: uppercase;
 }
-
-/* 
-div#c1 {
-	background-color: black;
-	font-family: Bodony MT;
-	text-align: center;
-	padding: 20px;
-	box-shadow: 0px 4px 8px 0px
-	rgba(0,0,0,0.2);
-	z-index: 1;
-	font-size: 12px;
-	} */
-
 /* Titelbox */
 div#c2 {
 	background-color: white;
@@ -88,7 +75,7 @@ ul li a:hover {
 	color: black;
 }
 ul li:hover {
-	background-color: white;
+	background-color: ghostwhite;
 	color: black;
 }
 ul li ul li {
@@ -137,26 +124,6 @@ label{
         display: block;
     }
 }
-/*
-.column_side {
-	float: left;
-	width: 20%;
-	padding-right: 0px;
-	padding-left: 0px;
-	padding-top: 80px;
-}
-.column_middle{
-	float: middle;
-	width: 50%;
-	padding-right: 5%;
-	padding-left: 5%;
-}
-.row:after {
-	content:"";
-	display: table;
-	clear: both;
-}
-*/
 div#c4 {
 	text-align: left;
 	font-family: Arial;
