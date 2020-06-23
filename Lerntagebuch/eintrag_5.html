@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lerneinheit 5</title>
+	<meta charset ="utf-8"/>
+	<meta name ="author" content="Rachel Noëmi Thommen">
+	<meta name ="description" content="Lerntagebuch, Beitrag 5">
+	<meta name ="keywords" content="Homepage, HTML, Lerntagebuch, BAIN, GitHub, IW">
+	<meta name ="date" content="23.06.2020">
+	<meta name ="viewport" content="device-width, initial-scale=1.0">
+	<link rel ="stylesheet" href="css_tagebuch.css" type ="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/butterfly.jpg">
+</head>
+<body>
+    <div class="nav">
+	   <label for="toggle">&#9776;</label>
+       <input type="checkbox" id="toggle"/>
+		<div class="menu">
+			<div id="c3">
+			<ul>
+				<li><a href="../index.html" >Home</a></li>
+				<li><a href="eintrag_1.html">13. März</a></li>
+				<li><a href="eintrag_2.html">03. April</a></li>
+				<li><a href="eintrag_3.html">25. April</a></li>
+                <li><a href="eintrag_4.html">05. Juni</a></li>
+                <li><a href="eintrag_5.html">06. Juni</a></li>
+            </ul>
+			</div>
+		</div>
+	</div>
+	<div id="c2">
+		<h1>06. Juni 2020</h1>
+	</div>
+	<div id="c4">
+        <h2>Die letzte Übungseinheit</h2>
+           VDie letzte Unterrichtseinheit konnte ich leider nicht live miterleben, da ich samstags immer arbeiten muss. Dennoch habe ich die Videoaufnahmen zwei Tage später nachbearbeitet und die Aufgaben dazu gelöst. Dabei ging es diesmal um einen kurzen Rückblick zur Virtuellen Maschine, resp. welche Möglichkeiten wir Studierende haben, wenn wir weiterhin mit einer VM arbeiten möchten und später um Linked Data und die Erstellung von Suchanfragen mit SPARQL.<p>
+        <h3>Alternativen zu unserer Virtuellen Maschine</h3>
+           Bei den virtuellen Maschinen gibt es einen wesentlichen Unterschied, dieser betrifft den Serverort der VM, welcher lokal oder in einer Cloud sein kann. Bei den Cloud-Servern gibt es Root-Server (=Webserver) mit welchem man vollen Zugriff zur Installation von Software hat (d.h. man hat Administrationsrechte). Dabei kann man einen echten eigenen Server verwenden oder einen virtuellen Server. Der Vorteil von lokalen Servern ist die Cyber-Sicherheit, da man weniger einfach gehackt werden kann, als bei Cloud-Servern. Lokale Möglichkeiten sind bspw. die VirtualBox (eine VM), Docker Desktop (mit welchem Container anstatt virtuelle Maschinen gebaut werden) oder das Booten von einem USB-Stick/-Festplatte (die VM, resp. die Testumgebung kann von diesem aus verwendet werden).<p>
+        <h3>OpenRefine und Wikidata</h3>
+            Nachdem gezeigt wurde, wie man einen Root-Server erstellt und wie OpenRefine auf diesem installiert wird, haben wir uns selbst an die Arbeit mit OpenRefine gesetzt und ein paar Aufgaben dazu gelöst. Da ich OpenRefine bereits installiert hatte, konnte ich dieses einfach öffnen und dem Tutorial im gemeinsamen Dokument folgen. Bei den Aufgaben ging es zuerst darum ein neues Projekt zu erstellen (mit der Eingabe eines Links), wobei einige Autorennamen erscheinen. Danach ging es an die «Reconciliation», die Eingeführten Daten sollten also noch angepasst werden. Zum Schluss konnten die Daten, die wir bereits hatten, mit Daten aus Wikidata ergänzt werden (hier um den Geburts- und den Todesort).<p>
+        <img src="../img/openrefine_daten.png" alt="Hier sollte das Bild angezeigt werden." align="middle" width="50%" height="25%"><p>
+        <h3>SPARQL-Anfragen im Wikidata Query Service</h3>
+            Zum Schluss folgten wir einem <a href="https://medium.com/freely-sharing-the-sum-of-all-knowledge/writing-a-wikidata-query-discovering-women-writers-from-north-africa-d020634f0f6c" target="_blank">Tutorial</a>, wie man SPARQL-Anfragen im <a href="https://query.wikidata.org/" target="_blank">Wikidata Query Service</a> beschreibt. Diese Aufgabe hat ziemlich viel Spass gemacht und auch problemlos funktioniert. Meine Abfrage suchte erst nach allen Einträgen mit dem Familiennamen = Windsor. Weitere Bedingungen wie «Ist Teil der britischen Königsfamilie», Geschlecht weiblich und Gattung Mensch folgten. Das Ergebnis waren drei Frauen. Ich liess die Abfrage zum Schluss auch auf der Karte aufzeigen:<p>
+        <img src="../img/sparql_abfrage.png" alt="Hier sollte das Bild angezeigt werden." align="middle" width="80%" height="25%"><p>
+        <img src="../img/karte_wikidata.png" alt="Hier sollte das Bild angezeigt werden." align="middle" width="25%" height="17%">        
+    </div>	
+	<div id="c9">
+		<h3><p>Kontakt</p></h3>
+		Rachel Noëmi Thommen<br>
+		Sardonastrasse 5<br>
+		7000 Chur<br>
+		076 266 14 07<br>
+		<a href="mailto:noemi.t@gmx.ch">rachel.thommen@stud.fhgr.ch</a>
+	</div>
+</body>
+</html>

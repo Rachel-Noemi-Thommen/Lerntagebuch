@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lerneinheit 4</title>
+	<meta charset ="utf-8"/>
+	<meta name ="author" content="Rachel Noëmi Thommen">
+	<meta name ="description" content="Lerntagebuch, Beitrag 4">
+	<meta name ="keywords" content="Homepage, HTML, Lerntagebuch, BAIN, GitHub, IW">
+	<meta name ="date" content="23.06.2020">
+	<meta name ="viewport" content="device-width, initial-scale=1.0">
+	<link rel ="stylesheet" href="css_tagebuch.css" type ="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/butterfly.jpg">
+</head>
+<body>
+    <div class="nav">
+	   <label for="toggle">&#9776;</label>
+       <input type="checkbox" id="toggle"/>
+		<div class="menu">
+			<div id="c3">
+			<ul>
+				<li><a href="../index.html" >Home</a></li>
+				<li><a href="eintrag_1.html">13. März</a></li>
+				<li><a href="eintrag_2.html">03. April</a></li>
+				<li><a href="eintrag_3.html">25. April</a></li>
+                <li><a href="eintrag_4.html">05. Juni</a></li>
+                <li><a href="eintrag_5.html">06. Juni</a></li>
+            </ul>
+			</div>
+		</div>
+	</div>
+	<div id="c2">
+		<h1>05. Juni 2020</h1>
+	</div>
+	<div id="c4">
+        <h2>Über die Modellierung von Metadaten und Anwendung von VuFind</h2>
+           Vorbereitet mit dem Selbststudium zu OpenRefine und MarcEdit sowie Solr steigen wir in eine weitere Online-Vorlesung ein. Die Themen drehen sich heute um die Modellierung von Metadaten und wie man Schnittstellen nutzt sowie die Funktion von Suchmaschinen und Discovery-Systemen. Wieder mit einem kurzen Einstieg und einem kurzen Feedback zu unseren Tagebucheinträgen haben wir gestartet.<p>
+           Zuerst ging es um die Transformation von Metadaten mit der Software OpenRefine. Diese eignet sich für die tabellarische Darstellung von Daten, dabei werden die Formate csv, tsv, xls und txt unterstützt. Weil OpenRefine Metadaten Zeile für Zeile abarbeitet, um diese tabellarisch darstellen zu können, funktioniert die Modellierung mit XML-Dateien, die keine starken Hierarchien haben am einfachsten, so z.B. MARCXML. Im Gegensatz dazu eignen sich stark hierarchische XML-Daten weniger, da diese zu stark verschachtelt sind (z.B. im EAD-Format). <p>
+           OpenRefine dient der Exploration von Datenlieferung und hilft bei der Organisation von Daten, d.h. es unterstützt die Vereinheitlichung der Daten. OpenRefine lässt auch einen Abgleich mit Normdaten zu, indem die eigenen Metadaten mit diesen von Wikidata, GND und VIAF verglichen und u.U. ergänzt werden können.
+
+        <h3>XSLT Crosswalks</h3>
+            Nach einer kurzen Pause ging es weiter mit XSLT (Programmiersprache für Transformation von XML-Dokumenten) Crosswalks mit MarcEdit (welches wir bereits als Hausaufgabe installiert haben). Bei Crosswalks geht es darum, Daten von einem Metadatenstandard in einen anderen Metadatenstandard zu transformieren. Dabei gibt es genaue Regeln, die vorgeben, wie die Elemente den Werten zugeordnet werden. Da es nur selten möglich ist, eine 100%ige Umwandlung der Metadaten zu machen, ist es meist dennoch eine intellektuelle Entscheidung, da die verschiedenen Standards auch verschiedene Anzahlen an Feldern haben. Dies führt dazu, dass gewisse Felder gesplittet oder zusammengeführt werden müssen, wenn man sie konvertieren möchte.
+            <p>
+            Weiter ging es um die Schnittstellen SRU, OAI-PMH und Z39.50 und wie man diese nutzt. Diese drei Übertragungsprotokolle aus dem Bibliotheks- und Archivbereich haben wir anhand von Aufgaben auch gleich ausprobiert. Mit dem <a href="https://sru.swissbib.ch/sru/form" target="_blank">Formular</a> von swissbib haben wir eine Abfrage über den Bibliothekskatalog der FHGR gemacht. Die Aufgabe hatte mir persönlich etwas Mühe bereitet und ich konnte sie erst lösen, als mir andere gezeigt haben, was ich eingeben soll. Auch habe ich erst bei der Nachbereitung verstanden, wo ich den Bibliothekscode nachlesen kann:<p>
+        <img src="../img/fhgr_code.png" alt="Hier sollte das Bild angezeigt werden." align="middle" width="25%" height="17%"><p>
+        <img src="../img/swissbib_abfrage.png" alt="Hier sollte das Bild angezeigt werden." align="middle" width="100%" height="25%">        
+
+        <h3>Installation von VuFind</h3>
+            Anschliessend haben wir uns den Suchmaschinen und Discovery-Systemen gewidmet. Laut <a href="https://de.wikipedia.org/wiki/Discovery-System" target="_blank">Wikipedia</a> sind Discovery-Systeme Suchsysteme für Bibliotheken, die auf Suchmaschinentechnologien basieren. Ein Open Source Discovery-System ist bspw. VuFind, welches wir auf unserer Virtuellen Maschine installiert und angewendet haben. VuFind ist jedoch nur das Front-End, gleichzeitig läuft im Back-End Solr.<p>
+            Bei der Installation von VuFind auf der VM kam es zu einigen Problemen, so dass ich die Installation dreimal durchgeführt hatte. Zuerst war es mein Fehler, da ich etwas voreilig gehandelt habe, da dachte ich, ich sollte die Installation noch einmal von vorne beginnen. Als es wieder Fehlermeldungen gab, nutzte erstmal ein Update und später musste ich mit KILL irgendeinen Prozess stoppen (wie es im Webex-Chat einer Kollegin vorgeschlagen wurde). Danach hat es auf jeden Fall geklappt.
+            <img src="../img/vufind_autoconfigure.png" alt="Hier sollte das Bild angezeigt werden." align="middle" width="80%" height="20%"><p>
+            Die Konfiguration verlief grundsätzlich ohne weitere Probleme, dennoch wird auf der Auto Configure-Seite angezeigt, dass Solr noch nicht funktioniert. Dies könnte daran liegen, dass ich Solr nicht auf der virtuellen Maschine installiert hatte.        
+    </div>	
+	<div id="c9">
+		<h3><p>Kontakt</p></h3>
+		Rachel Noëmi Thommen<br>
+		Sardonastrasse 5<br>
+		7000 Chur<br>
+		076 266 14 07<br>
+		<a href="mailto:noemi.t@gmx.ch">rachel.thommen@stud.fhgr.ch</a>
+	</div>
+</body>
+</html>
